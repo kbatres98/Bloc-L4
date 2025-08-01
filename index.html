@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blog de Cine</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">CineBlog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Acción</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Drama</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Comedia</a></li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar..." />
+          <button class="btn btn-outline-light" type="submit">Buscar</button>
+        </form>
+        <a class="nav-link text-light ms-3" href="acerca.html">Acerca de</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Cards de artículos -->
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Póster de película">
+          <div class="card-body">
+            <h5 class="card-title">El legado de Tarantino</h5>
+            <p class="card-text">Un vistazo a la influencia cultural y visual del cine de Quentin Tarantino.</p>
+            <a href="articulo1.html" class="btn btn-primary">Leer más</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Puedes duplicar el bloque <div class="col-md-4 mb-4"> para más artículos -->
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
